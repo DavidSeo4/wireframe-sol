@@ -1,0 +1,23 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Oswald|Roboto);
+
+body {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    font-family: "Roboto", sans-serif;
+    background-color: #ffffff;
+  }
+
+.logo2{
+    height: 50px;
+    position: relative;
+    top: -1100px;
+    right: -10px;
+  }
+
+.container{
+    margin-top: 50px;
+}

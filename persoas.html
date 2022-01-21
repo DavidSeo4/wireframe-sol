@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Persoas</title>
+    <script src="../js/header.js"></script>
+    <script src="../js/footer.js"></script>
+    <link href='https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+  <link href='//cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.2.0/css/datepicker.min.css' rel='stylesheet' type='text/css'>
+  <link href='//cdnjs.cloudflare.com/ajax/libs/bootstrap-switch/1.8/css/bootstrap-switch.css' rel='stylesheet' type='text/css'>
+  <link href='https://davidstutz.github.io/bootstrap-multiselect/css/bootstrap-multiselect.css' rel='stylesheet' type='text/css'>
+  <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js' type='text/javascript'></script>
+  <script src='//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.0/js/bootstrap.min.js' type='text/javascript'></script>
+  <script src='//cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.2.0/js/bootstrap-datepicker.min.js' type='text/javascript'></script>
+  <script src='//cdnjs.cloudflare.com/ajax/libs/bootstrap-switch/1.8/js/bootstrap-switch.min.js' type='text/javascript'></script>
+  <script src='https://davidstutz.github.io/bootstrap-multiselect/js/bootstrap-multiselect.js' type='text/javascript'></script>
+    <link rel="stylesheet" href="../css/persoas.css">
+</head>
+<body>
+    <header-component></header-component>
+
+    <div class='container'>
+        <div class='panel panel-primary dialog-panel'>
+          <div class='panel-heading'>
+            <h5>Datos persoais | Alta no servizo</h5>
+          </div>
+          <div class='panel-body'>
+            <form class='form-horizontal' role='form'>
+              
+              <div class='form-group'>
+                <label class='control-label col-md-2 col-md-offset-2' for='id_title'>Nome</label>
+                <div class='col-md-8'>
+                  <div class='col-md-2'>
+                    <div class='form-group internal'>
+                      <select class='form-control' id='id_title'>
+                        <option>Sra</option>
+                        <option>Sr</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class='col-md-3 indent-small'>
+                    <div class='form-group internal'>
+                      <input class='form-control' id='id_first_name' placeholder='Nome' type='text'>
+                    </div>
+                  </div>
+                  <div class='col-md-3 indent-small'>
+                    <div class='form-group internal'>
+                      <input class='form-control' id='id_last_name' placeholder='Apelidos' type='text'>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class='form-group'>
+                <label class='control-label col-md-2 col-md-offset-2' for='id_accomodation'>Nacionalidade</label>
+                <div class='col-md-2'>
+                  <select class='form-control' id='id_accomodation'>
+                    <option>España</option>
+                    <option>Portugal</option>
+                    <option>Francia</option>
+                  </select>
+                </div>
+              </div>
+              <div class='form-group'>
+                <label class='control-label col-md-2 col-md-offset-2' for='id_checkin'>Data de nacemento</label>
+                <div class='col-md-8'>
+                  <div class='col-md-3'>
+                    <div class='form-group internal input-group'>
+                      <input class='form-control datepicker' id='id_checkin'>
+                      <span class='input-group-addon'>
+                        <i class='glyphicon glyphicon-calendar'></i>
+                      </span>
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+              <div class='form-group'>
+                <label class='control-label col-md-2 col-md-offset-2' for='id_email'>DNI</label>
+                <div class='col-md-6'>
+                  <div class='form-group'>
+                    <div class='col-md-11'>
+                      <input class='form-control' id='id_email' placeholder='' type='text'>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class='form-group'>
+                <label class='control-label col-md-2 col-md-offset-2' for='id_accomodation'>Sexo</label>
+                <div class='col-md-2'>
+                  <select class='form-control' id='id_accomodation'>
+                    <option>Non definir</option>
+                    <option>Masculino</option>
+                    
+                  </select>
+                </div>
+              </div>
+              <div class='form-group'>
+                <label class='control-label col-md-2 col-md-offset-2' for='id_accomodation'>Población</label>
+                <div class='col-md-2'>
+                  <select class='form-control' id='id_accomodation'>
+                    <option>Vigo</option>
+                    <option>Pontevedra</option>
+                    
+                  </select>
+                </div>
+              </div>
+
+              <div class='form-group'>
+                <label class='control-label col-md-2 col-md-offset-2' for='id_email'>Enderezo</label>
+                <div class='col-md-6'>
+                  <div class='form-group'>
+                    <div class='col-md-11'>
+                      <input class='form-control' id='id_email' placeholder='' type='text'>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class='form-group'>
+                <label class='control-label col-md-2 col-md-offset-2' for='id_email'>Código Postal</label>
+                <div class='col-md-6'>
+                  <div class='form-group'>
+                    <div class='col-md-11'>
+                      <input class='form-control' id='id_email' placeholder='' type='text'>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class='form-group'>
+                <label class='control-label col-md-2 col-md-offset-2' for='id_email'>Contacto</label>
+                <div class='col-md-6'>
+                  <div class='form-group'>
+                    <div class='col-md-11'>
+                      <input class='form-control' id='id_email' placeholder='Correo electrónico' type='text'>
+                    </div>
+                  </div>
+                  <div class='form-group internal'>
+                    <div class='col-md-11'>
+                      <input class='form-control' id='id_phone' placeholder='Número de teléfono de contacto' type='text'>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class='form-group'>
+                <label class='control-label col-md-2 col-md-offset-2' for='id_checkin'>Data da alta</label>
+                <div class='col-md-8'>
+                  <div class='col-md-3'>
+                    <div class='form-group internal input-group'>
+                      <input class='form-control datepicker' id='id_checkin'>
+                      <span class='input-group-addon'>
+                        <i class='glyphicon glyphicon-calendar'></i>
+                      </span>
+                    </div>
+                  </div>
+                  
+                </div>
+                <div class='form-group'>
+                    <label class='control-label col-md-2 col-md-offset-2' for='id_accomodation'>Tipo de alta</label>
+                    <div class='col-md-2'>
+                      <select class='form-control' id='id_accomodation'>
+                        <option>Non definir</option>
+                        <option></option>
+                        
+                      </select>
+                    </div>
+                  </div>
+              </div>
+             
+              
+              
+              
+              <div class='form-group'>
+                <label class='control-label col-md-2 col-md-offset-2' for='id_comments'>Comentarios adicionais</label>
+                <div class='col-md-6'>
+                  <textarea class='form-control' id='id_comments' placeholder='' rows='3'></textarea>
+                </div>
+              </div> <br><br>
+              <div class='form-group'>
+                <div class='col-md-offset-4 col-md-3'>
+                  <button class='btn-lg btn-primary' type='submit'>Dar de alta</button>
+                </div>
+                <div class='col-md-3'>
+                  <button class='btn-lg btn-danger' style='float:right' type='submit'>Cancelar</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+
+   
+        <img class="logo2" src="../img/Sisssn título.png" alt="">
+        <script src="../examen2/script.js"></script>
+      
+     
+
+
+
+    <footer-component></footer-component>
+</body>
+</html>
