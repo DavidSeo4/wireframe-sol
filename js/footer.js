@@ -11,8 +11,7 @@ footerTemplate.innerHTML = `
       justify-content: space-between;
       align-items: center;
       background-color: #b81207;
-      margin-left: -10px;
-      margin-top: 332px;
+     
     }
 
     ul {
@@ -51,11 +50,6 @@ footerTemplate.innerHTML = `
     <li><a href="../acercade.html">Empresas</a></li>
     <li><a href="../servicios.html">Persoas</a></li>
     <li><a href="../contacto.html">Usuario</a></li>
-    </ul>
-    <ul class="social-row">
-      <li><a href="https://github.com/my-github-profile"><i class="fab fa-github"></i></a></li>
-      <li><a href="https://twitter.com/my-twitter-profile"><i class="fab fa-twitter"></i></a></li>
-      <li><a href="https://www.linkedin.com/in/my-linkedin-profile"><i class="fab fa-linkedin"></i></a></li>
     </ul>
   </footer>
 `;

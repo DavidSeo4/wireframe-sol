@@ -21,3 +21,11 @@ body {
 .container{
     margin-top: 50px;
 }
+
+footer{
+  margin-top: 400px;
+}
+
+.panel-heading {
+  font-weight: 700px;
+}

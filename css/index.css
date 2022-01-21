@@ -8,6 +8,7 @@ body {
   height: 100%;
   font-family: "Roboto", sans-serif;
   background-color: #ffffff;
+  overflow: hidden;
   
 }
 
@@ -261,6 +262,12 @@ font-weight: bold;
   height: 50px;
   position: relative;
   top: -179px;
+ 
+}
+
+.footer{
+  margin-left: -10px;
+  margin-top: 347px;
 }
 
 
